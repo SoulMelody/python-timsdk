@@ -22,7 +22,7 @@ def tim_lib_bootstrap():
     except subprocess.CalledProcessError:
         print('install im_electron_sdk failed')
         return
-    shutil.copytree('node_modules/im_electron_sdk/lib', 'param_extractor/timsdk/lib', dirs_exist_ok=True)
+    shutil.copytree('node_modules/im_electron_sdk/lib', 'timsdk/lib', dirs_exist_ok=True)
 
 
 if __name__ == '__main__':
