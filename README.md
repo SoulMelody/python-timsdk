@@ -2,7 +2,6 @@
 
 # Build Instructions
 
-1. Prerequisites: install Python and Node.js and add appropriate directories to your PATH;
-2. Run python tim_lib_bootstrap.py;
-3. Run pip install -r requirements-dev.txt;
-4. Run flit install.
+1. Prerequisites: install uv and Node.js and add appropriate directories to your PATH;
+2. Run bash setup_imsdk_lib.sh;
+3. Run uv sync --dev.
